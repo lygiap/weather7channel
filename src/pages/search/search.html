@@ -1,0 +1,11 @@
+<!--<input type="search">-->
+<!--Colocar componente para search com autocomplete para cidades - ver API para autocomplete de cidades mas não é prioridade-->
+<!--O mais importante é pegar a cidade (fazer aparecer os dados da cidade digitada)-->
+
+<ion-toolbar color="primary">
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+</ion-toolbar>
+
+<ion-list>
+  <ion-item *ngFor="let item of items">{{ item }}</ion-item>
+</ion-list>

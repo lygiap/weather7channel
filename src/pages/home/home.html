@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Weather 7 Channel</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <page-search></page-search>
+
+  <!-- Previsão de Tempo por Geolocalização -->
+
+  <div text-center>
+    <h3>[nomeDaCidade]</h3>
+    <h5>[clima]</h5>
+    <h1>{{ localWeather.temp }}º</h1>
+  </div>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-row>
+        <ion-col>[Data]</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <strong>[Dia da semana]</strong> Hoje
+        </ion-col>
+        <ion-col right text-right>
+          [máxº] <ion-note>[mínº]</ion-note>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <button ion-button icon-left clear small>
+    <ion-icon name="star-outline"></ion-icon>
+    <div>Favorito</div>
+  </button>
+
+  <!-- /Previsão de Tempo por Geolocalização -->
+
+</ion-content>

@@ -1,0 +1,10 @@
+<ion-menu [content]="conteudo">
+  <ion-content>
+    <ion-list>
+      <button ion-item (click)="openPage(home)" menuClose>Home</button>
+      <ion-item (click)="openPage(city)" menuClose>Cidade Favorita 1</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #conteudo></ion-nav>
