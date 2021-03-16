@@ -1,6 +1,7 @@
 # weather7channel
 
-É o nome do meu primeiro aplicativo que comecei a desenvolver, na época em que estava na 7COMm.
+É o nome do meu primeiro aplicativo que comecei a desenvolver, na época em que estava na 7COMm,
+em março de 2017.
 
 Foi uma primeira iniciativa de desenvolvimento híbrido de aplicativo para dispositivos móveis,
 usando Ionic.
